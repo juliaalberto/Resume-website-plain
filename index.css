@@ -1,7 +1,9 @@
 html{
+    background-color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h3{
+    align-items: center;
     font-size: 40px;
 }
