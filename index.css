@@ -1,9 +1,27 @@
 html{
     background-color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0%;
 }
 
 h3{
-    align-items: center;
     font-size: 40px;
 }
+
+
+.landing-container{
+    display: flex;
+    background-color: grey;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 10em 10em;
+}
+
+.landing-text{
+    padding: 2em;
+    max-width: 500px;
+}
+
+.landing-image{
+    padding: 2em;
+    max-width: 500px;}
