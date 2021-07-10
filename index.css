@@ -1,11 +1,32 @@
 html{
     background-color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 0%;
 }
 
-h3{
-    font-size: 40px;
+nav{
+    background-color: royalblue;
+    padding: 3em 1em 3em 1em;
+}
+
+.tabs-nav button{
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 18px;
+    border-color:transparent;
+    color: aliceblue;
+    transition-duration: 0.4s;
+    padding: 10px;
+    border-radius: 20%;
+}
+
+.tabs-nav button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.landing-text{
+    font-size: 20px;
+    padding: 2em;
+    max-width: 500px;
 }
 
 
@@ -14,14 +35,49 @@ h3{
     background-color: grey;
     justify-content: space-evenly;
     flex-direction: row;
-    padding: 10em 10em;
+    margin: 0%;
+    padding: 5em 0em;
 }
 
-.landing-text{
-    padding: 2em;
-    max-width: 500px;
-}
 
 .landing-image{
-    padding: 2em;
-    max-width: 500px;}
+    display:block;
+    background-color: skyblue;
+    height: 30em;
+    width: 25em;
+}
+
+.tabs-nav{
+    float: right;
+}
+
+.about-container, .contact-container, .work-container, .skills-container{
+    margin:auto;
+    text-align: center;
+    padding: 8em 8em;
+}
+
+.about-card{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    background-color: salmon;
+    padding: 3em;
+    border-radius: 5%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.about-image{
+    display:block;
+    height: 275px;
+    width: 275px;
+    margin: auto;
+    background-color: silver;
+    border-radius: 50%;
+}
+
+.about-text{
+    padding-top: 3em;
+}
+
