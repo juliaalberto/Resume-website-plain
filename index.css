@@ -1,6 +1,7 @@
 html{
     background-color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
 }
 
 nav{
@@ -40,11 +41,12 @@ nav{
 }
 
 
-.landing-image{
+.landing-image img{
     display:block;
-    background-color: skyblue;
-    height: 30em;
-    width: 25em;
+    height: 25em;
+    width: 45em;
+    float: right;
+
 }
 
 .tabs-nav{
@@ -81,25 +83,29 @@ nav{
     padding-top: 3em;
 }
 
+
+
+
+/* footer */
 footer{
     text-align: center;
     background-color: royalblue;
     padding: 3em 1em 3em 1em;
 }
 
-/* width */
+
+
+
+/* Scroll bar*/
 ::-webkit-scrollbar {
     width: 15px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+}
+::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
-  }
+}
   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: royalblue;
     border-radius: 10px;
-  }
+}
