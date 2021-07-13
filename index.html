@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="index.css">
+	<script type="text/javascript" src="myscripts.js"></script>
 	<title> Julia Alberto </title>
 </head>
+
 <body>
 
 <nav class = nav-container>
@@ -11,15 +14,20 @@
 		<a href = #homepage><img src = "Logo White.PNG"> JULIA ALBERTO</a>
 	</div>
 
-	<div class = "name-nav">
+	<div class = "tabs-nav" id = "myLinks">
+		<a href="#homepage">Home</a>
+		<a href="#aboutpage">About</a>
+		<a href="#projectspage">Projects</a>
+		<a href="#contactpage">Contact</a>
+		<a>ON/OFF</a>
 	</div>
-	<div class = "tabs-nav">
-		<a href="#homepage"><button>Home</button></a>
-		<a href="#aboutpage"><button>About</button></a>
-		<a href="#projectspage"><button>Projects</button></a>
-		<a href="#contactpage"><button>Contact</button></a>
-		<button>ON/OFF</button>
+	
+	<div class="hamburger" onclick="changemenu(this)">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
 	</div>
+
 </nav>
 
 <div class = "landing-container" id = "homepage">
@@ -35,23 +43,20 @@
 
 
 <div class = "about-container" id ="aboutpage">
-	<h2>About Me</h2>
 	<div class = "about-card">
+		<h2>About Me</h2>
 		<div class = "about-image">
-			<p>IMAGE</p>
 		</div>
 		<div class = "about-text">
 			<p> I am an undergraduate student at UC Davis studying B.S. Computer Science. I hope to be a full-stack developer working for </p>
-			<p> When I am not coding, I enjoy chilling with my dog Maki, crafting a new art project, and srolling though a calming nature walk.</p>
+			<p> When I am not coding, I enjoy chilling with my dog Maki, crafting a new art project, and strolling though a calming nature walk.</p>
 		</div>
 	</div>
 </div>
 
+
 <div class = "skills-container" id="skillspage"> 
 	<h2>Skills</h2>
-	<div><p> SKILLS 1</p></div>
-	<div><p> SKILLS 2</p></div>	
-	<div><p> SKILLS 3</p></div>
 </div>
 
 <div class = "projects-container" id = "projectspage">
