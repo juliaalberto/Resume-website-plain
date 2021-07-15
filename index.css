@@ -154,8 +154,8 @@ nav{
 }
 
 .about-image img{
-    height: 15em;
-    width: 15em;
+    height: 60%;
+    width: 100%;
     border-radius: 50%;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -170,11 +170,31 @@ nav{
 
 /* Projects */
 
-#projectlayout{
-    height: 20em;
-    width: 60%;
-    background-color:red;
-    border-radius: 5em;
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#project-card{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 80%;
+    margin: auto;
+    align-items: center;;
+    padding: 2em;
+    border-radius: 10%;
+    margin: 1em;
+}
+
+#project-img{
+    display: block;
+    height: 10em;
+    width: 10em;
+    background-color: blue;
 }
 
 
