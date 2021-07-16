@@ -9,7 +9,6 @@
 html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     scroll-behavior: smooth;
-
 }
 
 .about-container, .projects-container, .skills-container{
@@ -17,15 +16,14 @@ html{
     padding: 2em;
 }
 
+
 /* nav*/
 
 
 nav{
-    display: flexbox;
     align-items: center;
     background-color: #434780;
-    margin:auto;
-    padding: 2em 0 2em 0;
+    padding: 1em;
     overflow: hidden;
     position: relative;
 }
@@ -45,7 +43,7 @@ nav{
     transition-duration: 0.4s;
     padding: 10px;
     border-color: aliceblue;
-    padding: 14px 16px;
+    padding: 14px
 }
 
 .tabs-nav a:hover{
@@ -53,19 +51,24 @@ nav{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-.logo-nav img{
-    width: 10%;
-    height:10%;
-    image-rendering: crisp-edges;
-    top:1em;
-    right:1em;
+.logo-nav div{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-left: 2em;
 }
 
-.logo-nav a{
-    color: aliceblue;
+.logo-nav img{
+    width: 3em;
+    height:3em;
+    image-rendering: crisp-edges;
+}
+
+.logo-name a{
+    display: none;
+    color:aliceblue;
     text-decoration: none;
-    font-size: 20px;
-    margin: auto;
+    padding: 1em;
 }
 
 
@@ -74,14 +77,13 @@ nav{
 
 .hamburger {
     cursor: pointer;
-    margin: 5% 5% 0 0;
     position: absolute;
-    top:1em;
+    top:1.25em;
     right:1em;
   }
   
 .bar1, .bar2, .bar3 {
-    width: 35px;
+    width: 2.3em;
     height: 5px;
     background-color:aliceblue;
     margin: 6px 0;
@@ -184,7 +186,7 @@ nav{
     background-color: red;
     width: 80%;
     margin: auto;
-    align-items: center;;
+    align-items: center;
     padding: 2em;
     border-radius: 10%;
     margin: 1em;
@@ -224,8 +226,25 @@ footer{
     background:#004AAD;
 }
 
+/*for website */
+@media (min-width: 376px){
+    nav{
+        background-color: red;
+    }
+
+    .logo-nav img{
+        display: none;
+    }
+
+    .logo-name a{
+        display:inline-block;
+
+    }
+}
+
 /*
-@media {
+@media (min-width:1024px)
+{
    .tabs-nav a{
     display: block;
     text-decoration: none;
@@ -236,6 +255,6 @@ footer{
     padding: 10px;
     border-radius: 20%;
     border-color: aliceblue;
-} 
+    } 
 }
 */
